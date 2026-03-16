@@ -1,16 +1,47 @@
 ** = extra, other themes
+m = map
+h = hist and world
+i = info general (not one of my specific types)
+*nothing* = ECI
 
 
 15
     32 (+36): vps
     37: Iaas
-    46**: K12 (hist, USA)
+    46h: K12 (hist, USA)
     47: Eng de Soft Exp
     48: layoff
     55: Stallings, Tannenbaum
+16
+    5: escala
+    7i: PQD
+
+
+
+
+
+
+
+
+
+
+
 
 
 
 ----------------------------------------------
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+microsserviços
