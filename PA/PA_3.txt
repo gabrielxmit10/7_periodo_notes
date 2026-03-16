@@ -1,8 +1,12 @@
-** = extra, other themes
+
+*(X times): the least the more important (0 *s is just not ranked)
+
 m = map
 h = hist and world
 i = info general (not one of my specific types)
 *nothing* = ECI
+t = termo
+? = idk
 
 
 15
@@ -11,10 +15,31 @@ i = info general (not one of my specific types)
     46h: K12 (hist, USA)
     47: Eng de Soft Exp
     48: layoff
-    55: Stallings, Tannenbaum
+    55*: Stallings, Tanenbaum (autores de livro de SO)
 16
     5: escala
     7i: PQD
+    11t: outsourcing
+    11?: fiver
+    12*: GO (GOLang that he mentioned at 16:22)
+    14*: Kafka
+    14: Teste de integração
+    16*: React native é usado mas é um bglh cehio de dados já existentes mas é mais fácil pq vc já sabe como usar e pode ser usado em qualquer coisa
+    19*: Tanenbaum (15:55), mas pra redes
+    20: Angular (programar em __) - ent uma ling de prog?
+    24*: CI/CD
+    24*: fiver (:11)
+    25: Owaspzap, teste de penetração (?)
+    26*: github actions
+    30*: Positivo, linha pessoal
+    36*: Docker (sth he thinks is important in docker)
+    38: PHP
+    39: prof/student rate (here and USA)
+    40*: NCE, PESC
+
+
+
+
 
 
 
@@ -44,4 +69,6 @@ i = info general (not one of my specific types)
 
 
 
-microsserviços
+Microsserviços
+
+
