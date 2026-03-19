@@ -1,0 +1,232 @@
+### Aula 1 - 10/03/2026
+
+# Classes e Objetos
+class'''' NOME{
+    public:
+        CONSTR
+C++ foi uma das primeiras linguagens orientadas a objeto, mantém a essência de orientação de objeto. C++ implemeneta todos os conceitos de OO, e atualmente está trazendo coisas de programação funcional 
+Linguagem mais rápida, inclusive mais que C, e é baixo nível
+Do C veio o Unix. C++ veio do C (ponteiros e endereço de memória) junto do OO
+
+Encapsulamento e proteção -> classes possibilitam caixa preta e privacidade
+Reutilização de código -> agrupar dados e comportamentos em classes -> criação de componentes (exs: pilha)
+Tipos abstratos de dados -> estruturas de dados clássicas não conseguem ter comportamentos específicos (ex: criar um vetor 
+ apenas, não dá para definir que vai ser uma pilha, pois vai dar para alterar seus valores internos); programador deve conhecer os algoritmos intrínsecos, e ausência de proteção (controle de acesso).
+
+Uso de chaves ( { } ) para demarcar blocos
+Linguagem tipada
+
+
+### Aula 2 - 12/07/2026
+
+ORIENTAÇÃO A OBJETO:
+
+Herança -> define que um tipo abstrato de dados é um subtipo de outro -> classificação
+-/-> tudo que vale para um vale para seu subtipo
+-/-> Relação "É um tipo de"
+
+Polimorfismo -> permite associar a cada tipo e subtipo uma operação correspondente, que se comporta de maneira específica para cada tipo
+-/-> Ex: Operação comum "Desenhar" é comum para todos objetos "Figuras", mas cada figura tem sua própria forma de desenhar -> figura.desenhar()
+
+Encapsulamento -> usuário usa classe, mas não precisa mexer em sua implementação
+-/-> protege integridade dos dados
+
+- Classe = Tipo de Objetos -> tem atributos, métodos e regras de visibilidade (público ou privado); a classe é um molde que define objetos
+- Objeto = Instância de uma classe -> em c++, variáveis dentro de uma função, parâmetros para funções e campos de outras estruturas de classes 
+
+Encapsulamento via classes
+-> variável é o objeto em si: estado do objeto acessados por .
+-> endereço do objeto: ponteiro para objeto "->"
+
+Struct e classe é quase a mesma coisa, mas struct no default é público enquanto classe por default é privado
+
+C x C++: Classes, Exceções, Templates, Referências (C tem ponteiro, e é chamado de referência), Sobrecarga de Operadores (extensão dasemântica dos operadores, ex: += para números complexos ou matrizes. Só não é possível mudar as propriedades de precedência e associatividade, e não é possível criar novos operadores, e tem alguns que não podem ser redefinidos [como o .])
+-------------------------------------------------
+Ex referência:
+    int a, b;   a->11
+    a = 10;     b->10 , b é uma cópia de a
+    b = a;
+    a = 11;
+-------------------------------------------------
+    a = { nome: "Jose" };
+    b = a;                      b -----> nome|José
+    b.nome = .....              a ---/
+
+- Para não esquecer jamais:
+-> Esconda todos os dados
+-> Usar seção seção de dados privados: seção private
+-> Construtor e Destrutor: se usar ponteiro, eles não vão fazer o que você quer
+
+Exemplo:UTOR() { }
+        FUNÇÃO() {}
+        FUNÇÃO2() {}
+    private:
+        VARIÁVEIS
+    protected: // público para os filhos, privado para o próprio tipo
+}
+
+
+Diferença de include e import
+-> import é pré-compilado, só no C++23 
+-> include, vai compilar a biblioteca integridade
+---> <iostream>: entrada e saída. Ex: cin (input), cout (output) e cerr (output de erro)
+
+std::XXXX -> é como se fosse o pacote onde foi declarado o pacote. Se você quer usar algo do STD, você colocar em depois do ::
+-/-> using namespace std;
+
+\n X endl -> endl pula a linha e salva o buffer no arquivo
+
+Guia de estilo
+- Classes com nome com primeira letra maiúscula
+- ptr_xxxx , ptrXxxx
+- constantes com tudo maiúsculo
+
+Interface X Implementação:
+É boa prática separar a declaração de interface (arquivo .h) com a implementação (arquivo .cpp)
+-/-> Vantagem de não precisar recompilar todos os códgios que usam a classe .h, só muda a Implementação
+
+Figura.desenhar();
+        ^^^ tem que declarar que o método é VIRTUAL para o caso dele ser polimórfico
+
+
+### Aula 3 - 17/03/2026
+
+~PilhaInt -> Destrutor
+-> não pode ter parâmetros, por isso destrutor não pode ser usado para fazer array (construtor precisa ser vazio)
+-> campo a campo (field wize)
+-> é pilha: ordem dos construtores é inversa ao dos destrutores (se constroi de 1 a 9, destroi de 9 a 1)
+-> construtor chama automaticamente o construtor do pai, para depois executar sua parte especificaa. pro destrutor é inverso, destroi primeiro o objeto para depois chamar o destrutor do pai
+
+- Construtor de cópia -> construtor especial chamdo quando um objeto é criado a partir de outro onjeto da mesma classe -> faz uma cópia. DEFAULT NO C++ FAZ SEMPRE CAMPO A CAMPO
+-> Usos em: Passagem por valor e retorno por valor e Inicialização de Novo Objeto - Ex: PilhaInt p = q;
+-> Usar o default: ver se o default member wise atende aos seu programa, caso contrário escreva seu próprio. Para desativar um construtor, basta defini-lo como private
+Ex:
+    PilhaInt();
+    PilhaInt (const PilhaInt& p ); -> faz a cópia, o const é para garantir que você não vai alterar o parâmetro, e isso é passado por referência
+
+
+void troca( double& a , double& b ){
+    const double copo = a;
+    a = b;
+    b = copo;
+}
+int main(){
+    double x = 10; y = 13;
+    troca(x,y);
+    cout << "x = " << x << endl << "y = " << y << endl;
+    return 0;
+}
+** Para programas pequenos, vale a pena usar "using namespace std"
+** Tudo que pode ser const, coloque como const -> para saber basta saber se o parâmetro será alterado ou não
+** Toda referência precisa ser inicializada: alias é um alias de alguma coisa. E referência não muda
+** Não existe array de referências no C++, mas pode ter ref de array
+** C e C++ não tem atribuição de array -> array é ponteiro -> para isso precisa-se copiar elemento a elemento
+
+class PilhaInt{
+    public:
+        PilhaInt(); // Construtor
+        PilhaInt( const PilhaInt& p ){ // Construtor de cópia: sempre fazer const classe ref
+        cout << "Chamou construtor de cópia" << endl;
+            atual = p.atual; // o primeiro atual é o do novo objeto criado
+            for (int i = 0; i < p.atual; i++){
+                tab[i] = p.tab[i];
+            }
+
+        }
+}
+PilhaInt imprime( PilhaInt p ) { // chama o construtor de cópia para fazer esse p para -> chamado quando inicializa var, quando chama param de funcao ou quando retorna de funcao
+}
+PilhaInt imprime( PilhaInt& p ){
+    return p; // aqui é feito uma cópia de p, por isso chama o construtor de cópia
+}
+PilhaInt& imprime( PilhaInt& p ){
+    return p; // retorna o mesmo PilhaInt
+}
+
+int main(){
+    PilhaInt um;
+    um.empilha(1);
+    PilhaInt outra = um; // passando com parâmetro, chama o construtor de cópia
+}
+
+
+- Operador de atribuição (diferente de usar o operador de cópia)
+-> Atribuição campo a campo
+-> É possível fazer atribuição campo a campo? Se não, escreva o código você mesmo
+
+class PilhaInt{
+    public:
+        PilhaInt(); // Construtor
+        PilhaInt( const PilhaInt& p ){ // Construtor de cópia: sempre fazer const classe ref
+        cout << "Chamou construtor de cópia" << endl;
+            atual = p.atual; // o primeiro atual é o do novo objeto criado
+            for (int i = 0; i < p.atual; i++){
+                tab[i] = p.tab[i];
+            }
+        }
+
+        const PilhaInt& operator= ( const PilhaInt& p) { // sobrecarga de operadores! deve ser sempre const porque não faz sentido mudar atribuição; não pode mudar numero de operadores na atribuição, por isso um parametro
+            if ( this != &p ){ // se é o mesmo objeto, não precisa atribuir -> além de ineficiente, se você usa ponteiro dá ruim --> sempre verificar se this != &p
+                atual = p.atual; // o primeiro atual é o do novo objeto criado
+                for (int i = 0; i < p.atual; i++){
+                    tab[i] = p.tab[i];
+                }
+            }
+            return p;
+        }
+
+        void imprime( ostream& o ) const {
+            for (int i = 0; i < atual; i++){
+                o << p.tab[i] << " ";
+            }
+        }
+}
+
+int main(){
+    PilhaInt um, outro;
+    outro = um; // faz tab[i] = p.tab[i]; por nós -> operador de atribuição 
+}
+
+- Sobreposição de Operadores
+-> Operadores que não podem ser redefinidos: ".", ".*", "?:", "sizeof"
+-> encadeamento precisa de ponteiro (*this)
+
+
+ostream& operator << ( ostream& o, const PilhaInt& p) { // ostream ref para lidar com sobrecarga relacionada a cout
+    // for (int i = 0; i < p.atual; i++ ) // como ta fora da classe, não temos o this e o atual é privado, não podemos fazer assim
+    p.imprime( o );
+    return o;
+}
+
+
+Templates
+-> Programação genérica: escrever código que funciona corretamente para tipos arbitrários
+-> É um poliforfismo estático, que ocorre durante compilação (não na execução)
+-> Padrão (molde) para criar funções -> no assembly, cada molde aplicado a um tipo cria uma função para cada combinação de tipos em parâmetros
+
+ex: template <typename T> // class <=> typename
+    inline const T& Max (const T& a, const T& b){ // inline é para não chamar função, e sim colocar direto no código -> se fiver um for não vai fazer inline
+        // const ref para não fazer uma cópia desnecessária, se os objetos são pequenos, não precisa
+        return a > b ? a : b;
+    }
+
+    Max(3,5);         // int
+    Max(3.14, 2.71);  // double
+    Max("abc", "xyz"); // string -> string não tem >, então o que será feito é comparação dos endereços onde essas strings estão
+    Max(1, 1.1);       // vai dar erro, para corrigir precisamos precisamos passar o tipo específico, como em Max<int>(6.8, 6.9), que aí converte para int o resultado
+
+
+OBS1: Se você for fazer sobrecarga de função já definida em std, como "max", vai dar erro. Para tratar isso, podemos ou marcar como escopo global ::max(1,2), ou definir nosso namespace
+
+namespace zimbrao {
+   template <typename T> // class <=> typename
+    inline const T& Max (const T& a, const T& b){ // inline é para não chamar função, e sim colocar direto no código -> se fiver um for não vai fazer inline
+        // const ref para não fazer uma cópia desnecessária, se os objetos são pequenos, não precisa
+        return a > b ? a : b;
+    } 
+}
+
+zimbrao::max(1,2);
+
+
+
