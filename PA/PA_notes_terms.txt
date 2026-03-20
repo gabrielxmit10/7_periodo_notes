@@ -1,16 +1,20 @@
-Ctrl K Ctrl 0 -> collapse/retract all lines
-Ctrl K Ctrl J -> uncollapse/expand all lines
-Ctrl K Ctrl L -> toggle collapse/uncollapse current 
-PA_temp -> creates the template for each PA day
 
+Shortcuts
 
-*(X times): the least the more important (0 *s is just not ranked)
-m = map
-h = hist and world
-i = info general (not one of my specific types)
-*nothing* = ECI or didnt want to type
-t = termo
-? = idk
+    Ctrl K Ctrl 0 -> collapse/retract all lines
+    Ctrl K Ctrl J -> uncollapse/expand all lines
+    Ctrl K Ctrl L -> toggle collapse/uncollapse current 
+    PA_temp -> creates the template for each PA day
+
+Legenda
+
+    *(X times): the least the more important (0 *s is just not ranked)
+    m = map
+    h = hist and world
+    i = info general (not one of my specific types)
+    *nothing* = ECI or didnt want to type
+    t = termo
+    ? = idk
 
 ---------------------------------------------------------------------------------------------
 
@@ -81,7 +85,12 @@ t = termo
         45: Golioth
         47: Ele vai usar Apache Spark no colab (pelo q eu entendi)
         50hit: Barco, Torpedo
-
+    
+    17:
+        01: Govtex (eu acho)
+        02: Design AI engineering, (n deu pra pegar os outros)
+        03: Medium (pra ler livros ???)
+        
         
 
 
