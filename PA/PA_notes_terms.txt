@@ -1,0 +1,87 @@
+Ctrl K Ctrl 0 -> collapse/retract all lines
+Ctrl K Ctrl J -> uncollapse/expand all lines
+Ctrl K Ctrl L -> toggle collapse/uncollapse current 
+PA_temp -> creates the template for each PA day
+
+
+*(X times): the least the more important (0 *s is just not ranked)
+m = map
+h = hist and world
+i = info general (not one of my specific types)
+*nothing* = ECI or didnt want to type
+t = termo
+? = idk
+
+---------------------------------------------------------------------------------------------
+
+
+
+2026_03_16 class 3 
+
+    Start = 15:29
+
+    15:
+    03    32 (+36): vps
+    08    37: Iaas
+    17    46h: K12 (hist, USA)
+    18    47: Eng de Soft Exp
+    19    48: layoff
+    26    55*: Stallings, Tanenbaum (autores de livro de SO)
+
+    16:
+    36    5: escala
+    38    7i: PQD
+    42    11t: outsourcing
+    42    11?: fiver
+    43    12*: GO (GOLang that he mentioned at 16:22)
+    45    14*: Kafka
+    45    14: Teste de integração
+    47    16*: React native é usado mas é um bglh cehio de dados já existentes mas é mais fácil pq vc já sabe como usar e pode ser usado em qualquer coisa
+    50    19*: Tanenbaum (15:55), mas pra redes
+    51    20: Angular (programar em __) - ent uma ling de prog?
+    55    24*: CI/CD
+    55    24*: fiver (:11)
+    56    25: Owaspzap, teste de penetração (?)
+    57    26*: Github actions
+    61    30*: Positivo, linha pessoal
+    67    36*: Docker (sth he thinks is important in docker)
+    69    38: PHP
+    70    39: prof/student rate (here and USA)
+    71    40*: NCE, PESC
+
+
+
+---------------------------------------------------------------------------------------------
+
+
+
+2026_03_20 class 4
+
+    Start = 15:52
+
+    15:
+        52:
+
+    16:
+        04: MLOps e DevOps
+        06: layoff
+        07*: AWS, (2 things, i didnt hear) (ele falou pra gnt pesquisar e fazer algum curso)
+        08: Pytorch normalmente n vai ser usado. Fazer modelos é ruim e vc precisa de mts e bons dados pra treinar. No máximo a gnt vai fazer fine tuning
+        11: Modelos ágeis (entrega contínua), scrum
+        12: Cascata
+        18: Consultoria
+        25: Hacker Ético, Linux
+        27: SolidWorks (eu acho)
+        36*: Ninguém usa Pytorch (e um outro). "No mundo real" se usa modelo pré-treinado e APIs da nuvem e Mlib do Spark pra big data (Apache)
+        38: Feature store
+        39: PDA
+        40i: Miguel Couto rede de escolas (eu lembro do nome, tinha lá perto de casa acho)
+        42i: Zona Sul
+        45: Github actions (dnv)
+        45: Golioth
+        47: Ele vai usar Apache Spark no colab (pelo q eu entendi)
+        50hit: Barco, Torpedo
+
+        
+
+
