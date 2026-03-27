@@ -16,7 +16,7 @@ Legenda
     t = termo
     ? = idk
 
----------------------------------------------------------------------------------------------
+--------------------------------------------- TBD -----------------------------------------------
 
 
 
@@ -26,7 +26,12 @@ Legenda
 
     15:
     03    32 (+36): vps
+            Draft: 
+                vps is a Virtual Private Server. It is a virtual machine you can rent and you get to host it.
+                There are different types of VPSs, like containers and KVM (Kernel-based Virtual Machine).
+                On containers, 
     08    37: Iaas
+
     17    46h: K12 (hist, USA)
     18    47: Eng de Soft Exp
     19    48: layoff
@@ -55,7 +60,7 @@ Legenda
 
 
 
----------------------------------------------------------------------------------------------
+--------------------------------------------- TBD -----------------------------------------------
 
 
 
@@ -92,5 +97,58 @@ Legenda
         03: Medium (pra ler livros ???)
         
         
+
+--------------------------------------------- TBD -----------------------------------------------
+
+
+
+2026_03_23 class 5
+
+    Start = 15:14
+
+    15:
+        14: grad descendente estocástico
+        24: pessoas do IBGE n podem investir na bolsa (tem info importante dms)
+        25: indice nancy pelosi
+        26: Big Data muda com a perspectiva, n tem tamanho fixo (teoricamente tem no slide dele)
+        31m: Floripa
+        36: Alphabet (Google), Oracle (top empresas), Tesla
+        43i: Motor elétrico é mais fácil de produzir (26 peças) e o de combustão é 240 e pouco
+        45: Laida (sensor 3d)
+        48imh: Direito e administração são oq tem mais escola no brasil enqt na China é engenharia
+        51imh: Dívida da empresa fica pra quem criou a empresa, não é como nos EUA (q é de quem? n sei, n peguei, mas ele disse "se uma empresa acaba tá de boa dá pra ir e fazer outra")
+        53: Visto h1b (segundo copilot no vscode: visto de trabalho nos EUA)
+        56: Bootloader e chromebooks feitos com ARM n tem esse conceito (segundo Miceli param de funcionar dps q acaba o tempo de fazer update e q esse tem suporte)
+    
+    16:
+        02: INMET (Instituto Nacional de Meteorologia)
+        03m: Cachambi
+        08: Churn (o fato de vc sair de uma mensalidade)
+        13: Data Lake ()
+        14: Spark (dnv), Hadoop
+        15: PowerBI, Looked studio (?)
+        16: Kafka (dnv, usado pra streaming segundo o miceli)
+        17: Big query (ferramenta pra fazer busca em big data, do google)
+        25: Hong Kong é o aluguel mais caro do mundo (segundo Miceli, é um grande banco), HSBC, China Bank
+        28: Calabria (itália)
+        30m: Costa Barros
+        35: House of Cards (IA)
+        41mi: Galeão, Santos Dummont
+        44m: Zona Oeste, Norte
+        50i: Growth (múltiplos pequenos influenciadores são pagos ao invés de um grande pra engajar um produto)
+        52: Positivo (dnv)
+        57: Terminal Gentileza
+        62: Spark, Hadoop - Próxima aula
+
+
+
+
+
+
+
+
+
+
+
 
 

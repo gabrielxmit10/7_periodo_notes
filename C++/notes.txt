@@ -6,7 +6,9 @@
 
     - DSL
 
+2026_03_24 class 5
 
+    - 
 
 
 
@@ -45,8 +47,25 @@
 
 2026_03_19 class 4
 
+2026_03_24 class 5
 
+    - 
 
+2026_03_26 class 6
+
+    - new retorna o ____ do obj recém criado
+    - new no construtor e delete no destrutor vão ser usados em uma classe (pra n dar problema q new e del podem introduzir)
+    - int *p = nullptr; // ao inves de só int *p; pq se n é só lixo
+        é o valor de 0 no ponteiro (q n é válido)
+    - acessar um campo de um obj através de um ponteiro é con "->"
+        Ex:
+            Carro* c = new Carro("Fusca",1970);
+            c->exibir();
+    
+    Inicialização
+    - int c{ 2.2 }; // é um tipo de inicializar q dá erro, c{} n converte pra int
+        Essa inicialização é preferível já que 
+        "é + seguro" (int c = 2.2; converte por exemplo)
 
 
 

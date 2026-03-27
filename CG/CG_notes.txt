@@ -32,3 +32,24 @@ Class 4
 
 
 ---------------------------------------------------------------------------------------------
+
+class 5 
+
+To research:
+
+    APIs de baixo nível
+
+    Vulkan (padrão desktop Khronos Group)
+    WebGPU (padrão web Khronos Group)
+    DirectX 12 (desktop Windows)
+    Metal (desktop Apple)
+    APIs de nível médio
+
+    OpenGL (padrão desktop Khronos Group)
+    WebGL (padrão web Khronos Group)
+    DirectX 11 (desktop Windows)
+
+    Bibliotecas
+
+    P5, Three.js, etc
+
