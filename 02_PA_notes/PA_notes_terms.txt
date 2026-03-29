@@ -16,6 +16,11 @@ Legenda
     t = termo
     ? = idk
 
+    kws = keywords, for when searching through this txt
+    NSY = not seen yet, for terms i dont think are too important to see right now or might want to leave for later research
+
+
+
 --------------------------------------------- TBD -----------------------------------------------
 
 
@@ -26,15 +31,46 @@ Legenda
 
     15:
     03    32 (+36): vps
-            Draft: 
-                vps is a Virtual Private Server. It is a virtual machine you can rent and you get to host it.
-                There are different types of VPSs, like containers and KVM (Kernel-based Virtual Machine).
-                On containers, 
-    08    37: Iaas
+            vps is a Virtual Private Server. It is a virtual machine you can rent and you get to host it.
+            There are different types of VPSs, like containers and KVM (Kernel-based Virtual Machine).
+            On containers, you run a process in the machine, and on KVM, you run a whole operating system (you can install your own OS).
+            VPSs are used for hosting websites, applications, and other services. They provide more control and resources than shared hosting, but are more affordable than dedicated servers.
 
-    17    46h: K12 (hist, USA)
-    18    47: Eng de Soft Exp
-    19    48: layoff
+            links:
+                - https://www.reddit.com/r/VPS/comments/1iyjdc4/comment/mf4gel3/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button
+                    talks about what is a vps and different types, like containers and KVM (kws: vps, containers, kvm)
+                - https://www.reddit.com/r/explainlikeimfive/comments/2auf4g/eli5_why_would_i_use_a_vps_server/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button
+                    talks about what is a vps, why would you use it and that you get what you pay for in computer power (kws: vps, why use, cpu, ram, storage, disk space)
+
+    08    37: Iaas (Infrastructure as a Service)
+            With IaaS, you rent infrastructure, like servers, storage and networking resources and pay monthly for the resources you use. You can scale up or down as needed, and you don't have to worry about the underlying hardware.
+
+            links:
+                - https://www.reddit.com/r/explainlikeimfive/comments/10pjanm/eli5_what_is_saas_iaas_and_paas/
+                    Talks about other types of services and makes an analogy to car renting (kws: saas, iaas, paas, car rental)
+                - https://stackoverflow.com/questions/12564746/vps-and-iaas-what-is-the-difference
+                    Talks about the difference between VPS and IaaS and how a vps is a component of an Iaas solution (kws: vps, iaas, difference)
+
+    17    46h: K12 (hist, USA) - NSY
+
+    18    47: Eng de Soft Experimental - Miceli disse q é uma aula mt boa com o GHT q ensina sobre a ciência da eng de soft
+
+    19    48i: layoff
+            Oq o Miceli falou é q é feito pq economiza dinheiro.
+            
+            Teoricamente é uma suspensão do trab. No Brasil, dura de 2 a 5 meses, exige acordo coletivo e treinamento profissional, sendo uma alternativa à demissão em massa.
+            Nos EUA é quando vc é mandado embora por motivos alheios à sua performance, por exemplo cortes de custos ou fechamento de fábrica. 
+            (essa parte dos EUA veio do reddit, msm linkado abaixo)
+
+            Na realidade, segundo gnt do reddit (link abaixo), o layoff acaba funcionando como um eufemismo pra demissão em massa.
+
+            links:
+                - https://youtu.be/OU03C1Zu52c?si=_WY5c5Ny2dLQGPb1
+                    Explica o que é layoff no brasil, a diferença pra demissão em massa (kws: brasil, 2 a 5 meses, acordo coletivo, treinamento profissional, dispensa em massa, demissão em massa, dificuldade financeira)
+                - https://www.reddit.com/r/brdev/comments/1jb0p6b/comment/mhq3t3s/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button
+                    Explica layoff nos EUA e fala da realidade de q é como um eufemismo pra demissão em massa (kws: layoff, USA, eufemismo, demissão em massa)
+                
+
     26    55*: Stallings, Tanenbaum (autores de livro de SO)
 
     16:
@@ -139,6 +175,47 @@ Legenda
         52: Positivo (dnv)
         57: Terminal Gentileza
         62: Spark, Hadoop - Próxima aula
+
+    Extra:
+        Problemas de Big Data
+
+
+
+---------------------------------------------------------------------------------------------
+
+
+
+2026_03_27 class 6
+
+    Start = 15:20
+
+    15:
+        36i: Ivy League
+        39: PERL
+        42: minerar (idk what he means exactly by this verb) vídeos, VLM (i think its a machine used to do that video mining)
+        44: Page Rank
+        47i: Ouvidoria
+        48: Web Semântico (Owl, RDF)
+        50: 4 formas normais (related to BD)
+        52: XML
+        58: RDFS (... file system)
+    
+    16:
+        03: 3 Vs problemáticos
+        09: PageRank (dnv), árvore
+            13: PageRank - d 
+        14: MongoDB
+            15: Usar quando o dado é n estruturado; json
+        18: Programação ágil objetivo
+
+    Start = 16:36
+
+    16:
+        39h: Brasil, crescimento, últimos 30 anos
+        40i: Cláudio Castro
+        42hi: Die Welle (movie)
+        58: Cisco, AWS, RedHat tem alguma relaçao com a UFRJ e isso dá a chance de a gnt pegar alguns cursos deles segundo o Miceli
+        60: Hadoop (dnv)
 
 
 
