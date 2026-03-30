@@ -1,0 +1,20 @@
+
+---------------------------------------------------------------------------------------------
+
+
+
+2026_03_16 class 3 
+
+    Microsserviços são pequenos independentes e desacoplados
+        (na próxima aula ele disse q vai falar de acoplamento e coesão)
+
+    Cada microsserviço tem uma base de dados separada. Segundo o Miceli isso quer dizer q cada um pode estar em linguagens diferentes.
+
+    Ele fala q isso dificulta a manutenção.
+
+    Ele falou q a literatura fala q um serviço é algo q vc vai entregar e pronto. Mas na realidade vc tem q manter o serviço, e isso é o complicado.
+
+    Miceli levantou a dúvida de como garantir a integridade do serviço. Cada microsserviço tem q manter seus próprios estados, mas eles podem ter acesso a um msm banco de dados. Aí ele falou sobre como implementar esse acesso ao banco. 
+    Nesse contexto ele disse q surge Kafka (já que o )
+
+    45:00 (onde eu parei)

@@ -16,8 +16,13 @@ Legenda
     t = termo
     ? = idk
 
+
     kws = keywords, for when searching through this txt
+
     NSY = not seen yet, for terms i dont think are too important to see right now or might want to leave for later research
+    NCY = not completed yet, for cases that i researched a bit but didnt understand enough in a short time so i just write a draft compiling what i saw about it to perfect it later.
+
+    (seen in YYYY_MM_DD class X at HH:MM) = indicates ive seen the term before (so the explanation might be there, i'll only add anything to the new one if there is sth new from the context of the new moment it was mentioned)
 
 
 
@@ -30,69 +35,209 @@ Legenda
     Start = 15:29
 
     15:
-    03    32 (+36): vps
-            vps is a Virtual Private Server. It is a virtual machine you can rent and you get to host it.
-            There are different types of VPSs, like containers and KVM (Kernel-based Virtual Machine).
-            On containers, you run a process in the machine, and on KVM, you run a whole operating system (you can install your own OS).
-            VPSs are used for hosting websites, applications, and other services. They provide more control and resources than shared hosting, but are more affordable than dedicated servers.
+        03    32 (+36): vps
+                vps is a Virtual Private Server. It is a virtual machine you can rent and you get to host it.
+                There are different types of VPSs, like containers and KVM (Kernel-based Virtual Machine).
+                On containers, you run a process in the machine, and on KVM, you run a whole operating system (you can install your own OS).
+                VPSs are used for hosting websites, applications, and other services. They provide more control and resources than shared hosting, but are more affordable than dedicated servers.
 
-            links:
-                - https://www.reddit.com/r/VPS/comments/1iyjdc4/comment/mf4gel3/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button
-                    talks about what is a vps and different types, like containers and KVM (kws: vps, containers, kvm)
-                - https://www.reddit.com/r/explainlikeimfive/comments/2auf4g/eli5_why_would_i_use_a_vps_server/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button
-                    talks about what is a vps, why would you use it and that you get what you pay for in computer power (kws: vps, why use, cpu, ram, storage, disk space)
+                links:
+                    - https://www.reddit.com/r/VPS/comments/1iyjdc4/comment/mf4gel3/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button
+                        talks about what is a vps and different types, like containers and KVM (kws: vps, containers, kvm)
+                    - https://www.reddit.com/r/explainlikeimfive/comments/2auf4g/eli5_why_would_i_use_a_vps_server/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button
+                        talks about what is a vps, why would you use it and that you get what you pay for in computer power (kws: vps, why use, cpu, ram, storage, disk space)
 
-    08    37: Iaas (Infrastructure as a Service)
-            With IaaS, you rent infrastructure, like servers, storage and networking resources and pay monthly for the resources you use. You can scale up or down as needed, and you don't have to worry about the underlying hardware.
+        08    37: Iaas (Infrastructure as a Service)
+                With IaaS, you rent infrastructure, like servers, storage and networking resources and pay monthly for the resources you use. You can scale up or down as needed, and you don't have to worry about the underlying hardware.
 
-            links:
-                - https://www.reddit.com/r/explainlikeimfive/comments/10pjanm/eli5_what_is_saas_iaas_and_paas/
-                    Talks about other types of services and makes an analogy to car renting (kws: saas, iaas, paas, car rental)
-                - https://stackoverflow.com/questions/12564746/vps-and-iaas-what-is-the-difference
-                    Talks about the difference between VPS and IaaS and how a vps is a component of an Iaas solution (kws: vps, iaas, difference)
+                links:
+                    - https://www.reddit.com/r/explainlikeimfive/comments/10pjanm/eli5_what_is_saas_iaas_and_paas/
+                        Talks about other types of services and makes an analogy to car renting (kws: saas, iaas, paas, car rental)
+                    - https://stackoverflow.com/questions/12564746/vps-and-iaas-what-is-the-difference
+                        Talks about the difference between VPS and IaaS and how a vps is a component of an Iaas solution (kws: vps, iaas, difference)
 
-    17    46h: K12 (hist, USA) - NSY
+        17    46h: K12 (hist, USA) - NSY
 
-    18    47: Eng de Soft Experimental - Miceli disse q é uma aula mt boa com o GHT q ensina sobre a ciência da eng de soft
+        18    47: Eng de Soft Experimental - Miceli disse q é uma aula mt boa com o GHT q ensina sobre a ciência da eng de soft
 
-    19    48i: layoff
-            Oq o Miceli falou é q é feito pq economiza dinheiro.
-            
-            Teoricamente é uma suspensão do trab. No Brasil, dura de 2 a 5 meses, exige acordo coletivo e treinamento profissional, sendo uma alternativa à demissão em massa.
-            Nos EUA é quando vc é mandado embora por motivos alheios à sua performance, por exemplo cortes de custos ou fechamento de fábrica. 
-            (essa parte dos EUA veio do reddit, msm linkado abaixo)
-
-            Na realidade, segundo gnt do reddit (link abaixo), o layoff acaba funcionando como um eufemismo pra demissão em massa.
-
-            links:
-                - https://youtu.be/OU03C1Zu52c?si=_WY5c5Ny2dLQGPb1
-                    Explica o que é layoff no brasil, a diferença pra demissão em massa (kws: brasil, 2 a 5 meses, acordo coletivo, treinamento profissional, dispensa em massa, demissão em massa, dificuldade financeira)
-                - https://www.reddit.com/r/brdev/comments/1jb0p6b/comment/mhq3t3s/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button
-                    Explica layoff nos EUA e fala da realidade de q é como um eufemismo pra demissão em massa (kws: layoff, USA, eufemismo, demissão em massa)
+        19    48i: layoff
+                Oq o Miceli falou é q é feito pq economiza dinheiro.
                 
+                Teoricamente é uma suspensão do trab. No Brasil, dura de 2 a 5 meses, exige acordo coletivo e treinamento profissional, sendo uma alternativa à demissão em massa.
+                Nos EUA é quando vc é mandado embora por motivos alheios à sua performance, por exemplo cortes de custos ou fechamento de fábrica. 
+                (essa parte dos EUA veio do reddit, msm linkado abaixo)
 
-    26    55*: Stallings, Tanenbaum (autores de livro de SO)
+                Na realidade, segundo gnt do reddit (link abaixo), o layoff acaba funcionando como um eufemismo pra demissão em massa.
+
+                links:
+                    - https://youtu.be/OU03C1Zu52c?si=_WY5c5Ny2dLQGPb1
+                        Explica o que é layoff no brasil, a diferença pra demissão em massa (kws: brasil, 2 a 5 meses, acordo coletivo, treinamento profissional, dispensa em massa, demissão em massa, dificuldade financeira)
+                    - https://www.reddit.com/r/brdev/comments/1jb0p6b/comment/mhq3t3s/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button
+                        Explica layoff nos EUA e fala da realidade de q é como um eufemismo pra demissão em massa (kws: layoff, USA, eufemismo, demissão em massa)            
+
+        26    55*: Stallings, Tanenbaum (autores de livro de SO) - Miceli acha q a gnt devia ter lidos esses livros em SO, são os principais pra ele
+
+                Pro Miceli o livro de Redes do Tanenbaum é o "livro favorito dele de todos os tempos"
+
+                Tanenbaum é o msm cara q tem livro de Sistemas Distribuídos (SD) q o curso de SD usa de base (Distributed Systems 4th edition). 
+                Tem como pegar esse livro no site (https://www.distributed-systems.net/)
+
+                O livro q o Rodrigo usou pra gnt em SO (ainda q a gnt n tenha lido e só usado os slides dele) é o Operating Systems: Three Easy Pieces q tá no link (https://pages.cs.wisc.edu/~remzi/OSTEP/) feito por  Remzi H Arpaci-Dusseau e Andrea C Arpaci-Dusseau
+
+
+                links:
+                    - https://engineering.futureuniversity.com/BOOKS%20FOR%20IT/William%20Stallings%20-%20Operating%20Systems%20(1).pdf
+                        Livro do Stallings, fala sobre sistemas operacionais (kws: stallings, sistemas operacionais)
+                    - https://www.amazon.com/Operating-Systems-Internals-Design-Principles/dp/0133805913
+                        Msm livro do Stallings, mas na amazon
+                    - https://github.com/lighthousand/books/blob/master/Modern%20Operating%20Systems%204th%20Edition--Andrew%20Tanenbaum.pdf
+                        Livro do Tanenbaum de SO (Modern Operating Systems 4th Edition) disponível no github (kws: tanenbaum, sistemas operacionais)
+                    - https://www.amazon.com/Modern-Operating-Systems-Andrew-Tanenbaum/dp/013359162X
+                        Msm livro do Tanenbaum, mas na amazon
+                    - https://www.distributed-systems.net/
+                        Site do livro de SD do Tanenbaum (NÃO É o de Sistemas Operacionais), tem o livro pra baixar (kws: tanenbaum, sistemas distribuídos, sd, livro, download)
 
     16:
-    36    5: escala
-    38    7i: PQD
+    36    5: escala - NSY
+    38    7i: PQD - NSY
+
     42    11t: outsourcing
-    42    11?: fiver
+            terceirização, é a transferência de atividades internas para empresas externas especializadas, visando eficiência
+
+            Quando falando de microsserviços e que eles são autônomos, Miceli falou "a gnt contrata um monte de indiano pra fazer coisas estúpidas" quando falava disso. Ele falou q botam estagiários pra fazer tbm.
+            
+            Isso é falando q os microsserviços são serviços q precisam ser autônomos, ou seja, não podem depender de outros serviços pra funcionar
+
+    42    11?: fiverr
+            "Fiverr is a multinational online marketplace for freelance services.[2] It connects freelancers to people or businesses looking for services" (this is directly out of wikipedia, but it gives a good idea of what it is)
+
+            Miceli talked about this when saying that there is a bunch of people on these websites for freelance (like fiverr) that are hiring people to make microservices
+
+            kws: fiverr, freelance, marketplace, contratar, microsserviços, autônomos
+
+            links:
+                - https://en.wikipedia.org/wiki/Fiverr
+                    Wikipedia page about Fiverr (kws: fiverr, freelance, marketplace)
+                
     43    12*: GO (GOLang that he mentioned at 16:22)
-    45    14*: Kafka
-    45    14: Teste de integração
+            Go is a language from google, created for dealing with large scale systems, microservices, cloud computing, distributed systems and concurrency. It is made to be simple and compiles to machine code. 
+
+            links:
+                - https://go.dev/solutions/use-cases
+                    Use cases from Go's official website, talks about "Cloud & Network Services, Command-line Interfaces (CLIs), Web Development" (kws: go, golang, use cases, cloud, network services, clis, web development)
+                - https://www.reddit.com/r/golang/comments/u43i4u/what_do_you_use_go_for/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button
+                    Reddit post with comments that talk about how people use Go (kws: go, golang, use cases, cloud, network services, clis, web development)
+
+    45    14*: Kafka - NCY
+            Draft:
+                What Miceli said is that Kafka comes up in the context of having to maintain integrity in a system that needs to access a same database but has different microservices that need to access it.
+
+                So, I know Kafka has to do with sending messages between systems for maintaining integrity probably. It uses sth called event streaming which i guess has to do with the messages they keep track of. It also has a log i think, which is probably related to this keeping track of messages.
+
+                links i might use for the links part in the end (havent read them much, so see later)
+                    - https://kafka.apache.org/intro/
+                        Official website of Kafka, has an introduction
+                    - https://www.reddit.com/r/apachekafka/comments/10v484m/whywhen_should_i_use_kafka/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button
+                        Comment in reddit on why and in which cases to use Kafka
+
+    45    14: Teste de integração, Teste Unitário (integration testing, unit testing)
+            From what i understood, integration testing is when u test your software part on how it integrates to other parts of the system (not necessarily all other parts, can be 1 other part even of the system). At that, u notice problems that might not be noticed when testing the software part alone, like problems with the database or with the network.
+            
+            Examples are (from this link which is also below in the links section https://www.reddit.com/r/softwaretesting/comments/wfxibm/what_really_is_integration_testing/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button):
+                
+                "
+                Integration testing is testing how two service classes interact.
+                Integration testing is testing how a service interacts with a datastore.
+                Integration testing is testing how the ui responds to the back end.
+                "
+
+            There are other types of testing. Unit testing is another one i saw be mentioned and it is testing that peace of software by itself. Probably taking its different use cases and trying it out to see if problems are found. 
+            
+            There is also end to end testing, which is to simulate real user scenarios and validate the system as a whole, to see if it works as expected.
+
+            In reddit (the link for this comment is below), one guy said:
+                "in my observations it's where you hard-code a bunch of tests to hit different parts of the system, and you need to keep fixing them every time a change is made that breaks them."
+
+            links:
+                - https://www.reddit.com/r/SoftwareEngineering/comments/10ygs6v/comment/j7y3qg9/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button
+                    comment for what i said above (kws: hard-code, tests, different parts of the system, fixing, change, breaks)
+                - https://www.reddit.com/r/SoftwareEngineering/comments/10ygs6v/comment/j7y45w4/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button
+                    Comment in same reddit thread that talks about unit testing and integration testing (kws: unit testing, integration testing)
+                - https://www.reddit.com/r/SoftwareEngineering/comments/10ygs6v/comment/j7y7cnx/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button
+                    Comment in same reddit thread, talking about all 3 types i said in the explanations above (kws: unit testing, integration testing, end-to-end testing)
+                - https://www.reddit.com/r/softwaretesting/comments/wfxibm/what_really_is_integration_testing/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button
+                    Reddit post with comments that talk about what is integration testing (kws: integration testing, what is, definition)
+
     47    16*: React native é usado mas é um bglh cehio de dados já existentes mas é mais fácil pq vc já sabe como usar e pode ser usado em qualquer coisa
-    50    19*: Tanenbaum (15:55), mas pra redes
+            The time you can save by having sth that is compatible with multiple platforms (android, ios, web) is a lot. However, this comes with the problem that it is larger in size and has worse performance than native apps. So, it is a trade off between saving time and having a bigger app with worse performance.
+            Even simple programs in react native can have larger sizes than expected for what they do.
+            (i didnt find much about this online, this is basically what i understood from what Miceli said)
+
+    50    19*: Tanenbaum, mas pra redes (seen in 2026_03_16 class 3 at 16:09)
+            Miceli só fala q o livro de redes dele é ótimo, mas a tradução em português é horrível, tem até parte faltando 
+
     51    20: Angular (programar em __) - ent uma ling de prog?
-    55    24*: CI/CD
-    55    24*: fiver (:11)
-    56    25: Owaspzap, teste de penetração (?)
+            "Angular is a framework in Javascript. You can use Angular for your website to build more sophisticated user experiences quickly." é uma frase do reddit q eu botei nos links q me fez entender melhor.
+            
+            "Angular is your front-end Javascript framework which interacts with your back-end (node.js/express) and your users. With Angular you can make your static HTML dynamic by connecting user events to your back-end. For example: a user clicks a certain button and Angular submits a request to your Node.js server to get raw data, when Angular gets the raw data it will format it and display it for the user."
+            Another reddit user, the link is also in links
+
+
+            "Angular era legal, só acho gordo" foi oq o Miceli disse, provavelmente querendo dizer q é um framework pesado.
+
+            links:
+                - https://www.reddit.com/r/learnprogramming/comments/i63bmd/comment/g0t7sha/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button
+                    comment in a reddit post that explains what a framework is and uses angular as an example to explain what it is to js (kws: angular, framework, js)
+                - https://www.reddit.com/r/webdev/comments/1xrc9n/comment/cfeh0m5/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button
+                    comment explaining angular but also talks about other things, like Express.js, Node.js and Bootstrap (kws: angular, express.js, node.js, bootstrap, front-end, back-end)
+                
+    55    24*: CI/CD pipeline (Continuous Integration/Continuous Deployment or Delivery)
+            It is a practice of continuously integrating the code with the main branch of the project (CI) and continuously deploying (CD) which happens with automated tools, meaning you should aim to always make your product be ready for deployment as you keep developing it. 
+            
+            This is important because it allows for faster development and delivery of software, as well as better collaboration among team members. It also helps to catch bugs and issues early in the development process, which can save time and resources in the long run.
+
+            According to sth on reddit, CI for example is important cause it was common for people/teams to develop their code in isolated branches for months before integrating it.
+
+            According to Miceli, that is important for cases like the fiverr one, where you have freelance work and you dont want to check up on every single part, so CI/CD comes in handy to make sure everything is working together and that the product is always somewhat ready.
+            
+            links:
+                - https://www.reddit.com/r/devops/comments/t5nufe/comment/hz5yvk6/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button
+                    Comment in reddit that explains what is CI/CD pipeline and why it is important (kws: ci/cd pipeline, continuous integration, continuous deployment, isolated branches, automated tests)
+
+    55    24*: fiverr (seen in 2026_03_16 class 3 at 16:11)
+    
+    56    25: Owasp Zap, teste de penetração (pen test)
+
+            "Zed Attack Proxy (ZAP) is an open source tool to automatically find vulnerabilities in web applications. It's part of the Open Web Application Security Project (OWASP)." is what is said in the devopedia link i put in links.
+
+            Segundo Miceli, é um automatizador de teste de penetração (pen test). E ele falou q quem é do GRIS deveria saber.
+            
+            Ou seja, é uma ferramenta que simula ataques a um sistema para encontrar vulnerabilidades. Ele é usado para testar a segurança de aplicações web e identificar possíveis falhas que poderiam ser exploradas por hackers.
+
+            links:
+                - https://devopedia.org/owasp-zap
+                    Devopedia page about Owasp Zap, explains what it is and what it is used for (kws: owasp zap, pen test, security, vulnerabilities)
+
     57    26*: Github actions
+                From my understanding, it is a CI/CD platform that allows you to automate your build, test, and deployment pipeline. 
+                It is integrated with GitHub, so you can trigger actions based on events in your repository, such as pushes, pull requests, or issues. So if an issue occurs for example you can set up an action to happen upon that, like running tests or sending a notification.
+
+                Miceli said we are gonna be using it for our projects.
+
+                links:
+                    - https://docs.github.com/en/actions/get-started/understand-github-actions
+                        Official documentation of Github Actions, has an introduction and explains how it works (kws: automate, build, test, deployment, trigger, events)
+                    - https://www.reddit.com/r/github/comments/kpdsbc/can_somebody_explain_what_are_github_actions_and/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button
+                        Reddit post asking what is Github Actions to be explained for someone that is new to github as a whole (kws: packages, docker hub, github documentation being good)
+
     61    30*: Positivo, linha pessoal
-    67    36*: Docker (sth he thinks is important in docker)
-    69    38: PHP
-    70    39: prof/student rate (here and USA)
-    71    40*: NCE, PESC
+            Pro Miceli a linha empresarial da positivo é mt boa, em contraste com a pessoal. Ele falou q a positivo teve uma boa estratégia de negócios comprando a Vaio aqui no brasil.
+
+    67    36*: Docker (sth he thinks is important in docker) - NSY
+
+    69    38: PHP - NSY
+    70    39i: prof/student rate (here and USA) - NSY
+    71    40*: NCE, PESC - NSY
 
 
 
